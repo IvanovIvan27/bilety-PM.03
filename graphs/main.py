@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from math import *
 
 # Чтение коэффициентов и шага сетки из файла
 with open('input.txt', 'r') as file:
