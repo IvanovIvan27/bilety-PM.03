@@ -26,6 +26,7 @@ def show_in_excel(student_id):
 
 
 # Добавляет новую запись в records.txt
+
 def add_record(date, student_id, full_name, group, discipline, grade):
     with open('records.txt', 'a', encoding='utf-8') as file:
         file.write(f'\n{date}, {student_id}, {full_name}, {group}, {discipline}, {grade}')
